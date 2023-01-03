@@ -1,0 +1,156 @@
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  h1{
+    padding-top: 200px;
+  }
+  .para{
+    float: left;
+    width: 30%;
+    color: white;
+
+  }
+
+  .ju{
+    padding-top: 100px;
+  }
+  .film > h1{
+    
+    padding-top: 170px;
+  }
+.movie{
+    position: absolute;
+    padding-top: 550px;
+}
+
+.b{
+    margin-top: 150px;
+}
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding-top: 10px;
+    width: 100%;
+}
+.wrapper section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 20px 0;
+}
+
+.wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+.wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+.wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: #000;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+.wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.cols{
+    padding-top: 200px;
+    padding-right: 10px;
+}
+
+.nav-link{
+    padding-right:50px;
+}
+
+.moment{
+    color: white;
+    margin-top: 200px;
+    padding-top: 50px;
+    
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    
+    }
+    .wrapper section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+    }
+    .wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+    }
+    .wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+    }
+    .wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: black;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+    }
+    .wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+    }
+    .wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+    }
+    
+    .loupe{
+        
+        
+    }
+
+    .films{
+        color: white;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
